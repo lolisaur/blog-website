@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(121, 22, 73);
+}
+
+ol,ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.body{
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.footer{
+    background-color: rgb(252, 190, 229);
+    margin-top: 64px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+
+}
+.navbar{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 16px;
+    background-color: rgb(252, 190, 229);
+}
+.navbar .container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbar-nav{
+        display: flex;
+        list-style: none;
+        padding: 0px;
+}
+.navbar-nav .nav-item{
+    margin: 0 .5em;
+}
+.navbar a{
+    display: block;
+    padding: .5em;
+}
+
+.container{
+    margin: auto;
+   max-width: 1140px;
+   padding-left: 16px;
+   padding-right: 16px;
+}
+.jumbotron{
+    height: 30em;
+    margin-bottom: 2em;
+    background-image: url(assets/kirrby.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.jumbotron h1{
+    background-color: white;
+    padding: .25em .5em;
+    bottom: 0;
+    position: absolute;
+    margin: .5em;
+}
+.blog-post h1{
+    font-size: 50px;
+}
+.blog-post article {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.blog-post .category{
+    text-transform: uppercase;
+}
+
+.blog-post header {
+    margin-top: 4em;
+    text-align: center;
+}
+
+.blog-post .subtitle{
+    margin-top: 2em;
+}
+
+.blog-post .image{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}    
+
+.image img {
+    border-radius: 8px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display:block;
+    width: 100%;
+}
+
+.summery li{
+    margin-top: 1em;
+}
